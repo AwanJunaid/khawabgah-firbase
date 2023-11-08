@@ -7,7 +7,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { RxCross2 } from 'react-icons/rx'
 import { useSelector } from 'react-redux';
 
-function Navbar() {
+function NavBar() {
   const context = useContext(myContext);
   const {mode, toggleMode} = context;
 
@@ -216,4 +216,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default NavBar
